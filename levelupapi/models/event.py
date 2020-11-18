@@ -3,7 +3,7 @@ from django.db.models.deletion import CASCADE
 
 class Event(models.Model):
   game = models.ForeignKey("Game", on_delete=CASCADE)
-  orgnizer = models.ForeignKey("Gamer", 
+  organizer = models.ForeignKey("Gamer", 
     on_delete=CASCADE,
     related_name="events",
     related_query_name="event"
