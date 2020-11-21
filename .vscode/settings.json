@@ -6,5 +6,7 @@
       "name": "django",
       "database": "db.sqlite3"
     }
-  ]
+  ],
+  "python.linting.pylintEnabled": true,
+  "python.pythonPath": "/home/kamiran/.local/share/virtualenvs/levelup-pzxUO8qE/bin/python"
 }
